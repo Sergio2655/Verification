@@ -6,3 +6,7 @@ for (int i = 0; i < array.Length; i++)
     Console.Write(array[i] + " ");
 }
 string[] myArray = new string[3];
+for (int i = 0; i < myArray.Length; i++)
+{
+    myArray[i] = array[i];
+}
