@@ -10,3 +10,8 @@ for (int i = 0; i < myArray.Length; i++)
 {
     myArray[i] = array[i];
 }
+Console.WriteLine();
+for (int i = 0; i < myArray.Length; i++)
+{
+    Console.Write("\t" + myArray[i]);
+}
